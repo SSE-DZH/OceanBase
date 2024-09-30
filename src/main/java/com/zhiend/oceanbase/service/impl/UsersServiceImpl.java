@@ -2,6 +2,7 @@ package com.zhiend.oceanbase.service.impl;
 
 import com.zhiend.oceanbase.entity.Users;
 import com.zhiend.oceanbase.mapper.UsersMapper;
+import com.zhiend.oceanbase.result.Result;
 import com.zhiend.oceanbase.service.IUsersService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
@@ -17,4 +18,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements IUsersService {
 
+    @Override
+    public void addUser(Users users) {
+        save(users);
+    }
 }
