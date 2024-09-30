@@ -1,7 +1,7 @@
 package com.zhiend.oceanbase.mapper;
 
-import com.zhiend.oceanbase.entity.Users;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.zhiend.oceanbase.entity.Users;
 
 /**
  * <p>

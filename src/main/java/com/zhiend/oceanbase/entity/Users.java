@@ -1,21 +1,20 @@
 package com.zhiend.oceanbase.entity;
 
-import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
 /**
- * <p>
- * 
- * </p>
- *
  * @author Zhiend
- * @since 2024-09-30
+ * @version 1.0
+ * @description: 用户实体
+ * @date 2024/9/30 15:36
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

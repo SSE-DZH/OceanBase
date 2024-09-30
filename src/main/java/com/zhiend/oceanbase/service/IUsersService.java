@@ -1,8 +1,7 @@
 package com.zhiend.oceanbase.service;
 
-import com.zhiend.oceanbase.entity.Users;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zhiend.oceanbase.result.Result;
+import com.zhiend.oceanbase.entity.Users;
 
 /**
  * <p>
